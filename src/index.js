@@ -32,9 +32,53 @@ module.exports = function toReadable (number) {
         return `eighty ${dictionary[number - 80 - 1]}`
     }if (number === 90) {
         return 'ninety'
-    }if (number > 90 && number < 10) {
+    }if (number > 90 && number < 100) {
         return `ninety ${dictionary[number - 90 - 1]}`
     }if (number === 100) {
         return 'one hundred'
-    }
+    }if (number > 100 && number < 120) {
+        return `one hundred ${dictionary[number - 100 - 1]}`
+    }if (number === 120) {
+        return 'one hundred twenty'
+}   if (number > 120 && number < 130) {
+    return `one hundred twenty ${dictionary[number - 120 - 1]}`
+}   if (number === 130) {
+    return 'one hundred thirty'
+}if (number > 130 && number < 140) {
+    return `one hundred thirty ${dictionary[number - 130 - 1]}`
+}if (number === 140) {
+    return 'one hundred fourty'
+}if (number > 140 && number < 150) {
+    return `one hundred fourty ${dictionary[number - 140 - 1]}`
+}if (number === 150) {
+    return 'one hundred fifty'
+}if (number > 150 && number < 160) {
+    return `one hundred fifty ${dictionary[number - 150 - 1]}`
+}if (number === 160) {
+    return 'one hundred sixty'
+}if (number > 160 && number < 170) {
+    return `one hundred sixty ${dictionary[number - 160 - 1]}`
+}if (number === 170) {
+    return 'one hundred seventy'
+}if (number > 170 && number < 180) {
+    return `one hundred seventy ${dictionary[number - 170 - 1]}`
+}if (number === 180) {
+    return 'one hundred eighty'
+}if (number > 180 && number < 190) {
+    return `one hundred eighty ${dictionary[number - 180 - 1]}`
+}if (number === 190) {
+    return 'one hundred ninety'
+}if (number > 190 && number < 200) {
+    return `one hundred ninety ${dictionary[number - 190 - 1]}`
+}if (number === 200) {
+    'two hundred'
+}if (number > 20 && number < 30) {
+    return `twenty ${dictionary[number - 20 - 1]}`
+}if (number > 20 && number < 30) {
+    return `twenty ${dictionary[number - 20 - 1]}`
+}if (number > 20 && number < 30) {
+    return `twenty ${dictionary[number - 20 - 1]}`
+}if (number > 20 && number < 30) {
+    return `twenty ${dictionary[number - 20 - 1]}`
+}
 }
