@@ -21,15 +21,15 @@ module.exports = function toReadable (number) {
     }if (number === 60) {
         return 'sixty'
     }if (number > 60 && number < 70) {
-        return `sixty ${dictionary[number - 70 - 1]}`
+        return `sixty ${dictionary[number - 60 - 1]}`
     }if (number === 70) {
         return 'seventy'
     }if (number > 70 && number < 80) {
-        return `seventy ${dictionary[number - 80 - 1]}`
+        return `seventy ${dictionary[number - 70 - 1]}`
     }if (number === 80) {
         return 'eighty'
     } if (number > 80 && number < 90) {
-        return `eighty ${dictionary[number - 90 - 1]}`
+        return `eighty ${dictionary[number - 80 - 1]}`
     }if (number === 90) {
         return 'ninety'
     }if (number > 90 && number < 10) {
